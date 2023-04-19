@@ -1,0 +1,21 @@
+export JAVA17_HOME=/usr/lib/jvm/java-17-openjdk
+export JAVA11_HOME=/usr/lib/jvm/java-11-openjdk
+export JAVA8_HOME=/usr/lib/jvm/java-8-openjdk
+
+export MAVEN_HOME=/home/x4x/.local/software/apache-maven-3.6.3
+export PATH=$PATH:$MAVEN_HOME/bin
+
+export PATH=$PATH:/home/x4x/.local/bin
+export PATH=$PATH:/home/x4x/.local/software/Postman
+export PATH=$PATH:/home/x4x/.local/share/gem/ruby/3.0.0/bin
+export PATH=~/.npm-global/bin:$PATH
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+alias zhuang="sudo pacman -S"
+alias xie="sudo pacman -R"
+alias sou="pacman -Ss"
+alias gxin="sudo pacman -Syu"
+

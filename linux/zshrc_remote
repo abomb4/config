@@ -1,0 +1,51 @@
+# basic load modules
+source ~/.profile
+autoload -Uz colors && colors
+autoload -Uz compinit promptinit
+compinit
+promptinit
+setopt AUTO_CD
+setopt HIST_FIND_NO_DUPS
+setopt correct
+setopt nobeep
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+
+# variables
+
+PRE_COLOR=""
+if [ "$USER" = "root" ]; then
+    PRE_COLOR=red
+else
+    PRE_COLOR=green
+fi
+# prompt
+PROMPT="%{$fg[$PRE_COLOR]%}%n%{$reset_color%}@%{$fg[white]%}%m %{$fg_no_bold[yellow]%}%~ %{$fg[red]%}%(?..%? )%{$reset_color%}%# "
+
+# Completion optimize
+# activate color-completion
+zstyle ':completion:*:default'         list-colors ${(s.:.)LS_COLORS}
+# if there are more than 5 options allow selecting from a menu
+zstyle ':completion:*'               menu select=2
+
+# special keys
+bindkey '^[[3~' delete-char # delete key
+bindkey '^[[H' beginning-of-line # Home key
+bindkey '^[[F' end-of-line # End key
+bindkey '^[[1~' beginning-of-line # Home key
+bindkey '^[[4~' end-of-line # End key
+bindkey '^[[A' up-line-or-search # Up key
+bindkey '^[[B' down-line-or-search # down key
+bindkey '^[[Z' reverse-menu-complete # Shift+tab backward complete
+bindkey '5D' backward-word # Ctrl + left
+bindkey '5C' forward-word # Ctrl + right
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^X^E" edit-command-line
+
+# aliases
+alias l="ls -lFh"
+alias ll="ls -lFh"
+alias la="ls -lFha"
+

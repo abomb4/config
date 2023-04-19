@@ -1,0 +1,398 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[01cf7782-059f-4062-ada8-47c2d3496981]
+Description=Application settings for krdc
+clientmachine=localhost
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+wmclass=krdc
+wmclassmatch=1
+
+[0aa70d46-94d6-46f9-a87c-64bf4f5298cf]
+Description=et
+noborderrule=2
+types=1
+wmclass=et et
+wmclasscomplete=true
+wmclassmatch=1
+
+[1]
+Description=Window settings for jetbrains-idea-ce
+clientmachine=localhost
+decocolor=FffIdea
+decocolorrule=2
+disableglobalshortcuts=true
+types=1
+windowrole=mainwindow#1
+wmclass=jetbrains-idea-ce
+wmclassmatch=1
+
+[10]
+Description=Window settings for virtualbox machine
+clientmachine=localhost
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+title=w10 [正在运行] - Oracle VM VirtualBox
+titlematch=1
+types=1
+wmclass=virtualbox machine
+wmclassmatch=1
+
+[11]
+Description=Settings for draw.io
+clientmachine=localhost
+noborderrule=2
+title=w10 [正在运行] - Oracle VM VirtualBox
+wmclass=draw.io
+wmclassmatch=1
+
+[12]
+Description=Settings for wpsoffice
+noborderrule=2
+types=33
+wmclass=wps
+wmclassmatch=1
+
+[13]
+Description=WPS PPT
+noborderrule=2
+types=33
+wmclass=wpp
+wmclassmatch=1
+
+[14]
+Description=WPS Excel
+noborderrule=2
+types=33
+wmclass=et
+wmclassmatch=1
+
+[15]
+Description=网易云
+noborderrule=2
+types=1
+wmclass=netease-cloud-music
+wmclassmatch=1
+
+[16]
+Description=钉钉
+noborderrule=2
+title=钉钉
+titlematch=1
+types=1
+wmclass=com.alibabainc.dingtalk
+wmclassmatch=1
+
+[1910d5c0-dcc5-47a7-9b98-4a83a01ecac0]
+Description=Window settings for virtualbox manager
+clientmachine=localhost
+decocolor=FffVbox
+decocolorrule=2
+title=Oracle VM VirtualBox 管理器
+titlematch=1
+types=1
+wmclass=virtualbox manager
+wmclassmatch=1
+
+[2]
+Description=Application settings for krdc
+clientmachine=localhost
+decocolor=FffKonsole
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+title=Oracle SQL Developer
+windowrole=mainwindow#1
+wmclass=krdc
+wmclassmatch=1
+
+[21838581-8b8d-473a-9164-c5cfb61112fb]
+Description=Application settings for qtcreator
+clientmachine=localhost
+wmclass=qtcreator
+wmclassmatch=1
+
+[2bfc779e-52bd-4cff-a375-8a4cbb334544]
+Description=Window settings for krdc
+clientmachine=localhost
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+title=192.168.179.155 — KRDC
+titlematch=2
+types=1
+windowrole=mainwindow#1
+windowrolematch=1
+wmclass=krdc
+wmclassmatch=1
+
+[3]
+Description=Application settings for gvim
+clientmachine=localhost
+decocolor=FffKonsole
+decocolorrule=2
+disableglobalshortcuts=true
+title=Oracle SQL Developer
+windowrole=mainwindow#1
+wmclass=gvim
+wmclassmatch=1
+
+[313ef598-289d-4b5c-aada-9dcb5ef0f538]
+Description=Application settings for jetbrains-idea-ce
+clientmachine=localhost
+fsplevel=4
+fsplevelrule=2
+wmclass=jetbrains-idea-ce
+wmclassmatch=1
+
+[3e6b3223-4e70-43dd-b8f4-f3148dc940a4]
+Description=wpp
+noborderrule=2
+types=1
+wmclass=wpp wpp
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=SQL Developer
+clientmachine=localhost
+decocolor=FffSqldeveloper
+decocolorrule=2
+disableglobalshortcuts=true
+title=Oracle SQL Developer
+titlematch=2
+types=1
+windowrole=mainwindow#1
+wmclassmatch=1
+
+[45700f3b-518a-40cc-affb-8507d613e78e]
+Description=WPS PPT
+noborderrule=2
+types=33
+wmclass=wpp
+wmclassmatch=1
+
+[5]
+Description=Application settings for qtcreator
+clientmachine=localhost
+decocolor=FffQtcreator
+decocolorrule=2
+disableglobalshortcuts=true
+title=192.168.179.155 — KRDC
+windowrole=mainwindow#1
+wmclass=qtcreator
+wmclassmatch=1
+
+[56e9e690-0f77-4cae-a1f7-ec07f4faf8c8]
+Description=Application settings for konsole
+clientmachine=localhost
+decocolor=FffD
+decocolorrule=2
+wmclass=konsole
+wmclassmatch=1
+
+[56fb7c70-cdea-442f-99df-ed7130032749]
+Description=Settings for draw.io
+noborderrule=2
+wmclass=draw.io
+wmclassmatch=1
+
+[6]
+Description=Application settings for gimp-2.10
+clientmachine=localhost
+decocolor=FffGimp
+decocolorrule=2
+disableglobalshortcuts=true
+title=192.168.179.155 — KRDC
+windowrole=mainwindow#1
+wmclass=gimp-2.10
+wmclassmatch=1
+
+[6126fcc0-a8a8-416d-b946-866bce278ddc]
+Description=Settings for wps wps
+noborderrule=2
+types=1
+wmclass=wps wps
+wmclasscomplete=true
+wmclassmatch=1
+
+[62252868-7853-45ef-a576-5a5b6c83dd6d]
+Description=钉钉
+noborderrule=2
+title=钉钉
+titlematch=1
+types=1
+wmclass=com.alibabainc.dingtalk
+wmclassmatch=1
+
+[65905faa-3bbb-48f6-84d1-ad2adda06e3e]
+Description=网易云
+noborderrule=2
+types=1
+wmclass=netease-cloud-music
+wmclassmatch=1
+
+[6d1287ca-dc87-40bf-975d-e65e45ff2522]
+Description=Application settings for qtcreator
+clientmachine=localhost
+decocolor=FffQtcreator
+decocolorrule=2
+wmclass=qtcreator
+wmclassmatch=1
+
+[7]
+Description=Window settings for krdc
+clientmachine=localhost
+decocolor=FffVbox
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+title=192.168.176.133 — KRDC
+titlematch=2
+types=1
+windowrole=mainwindow#1
+windowrolematch=1
+wmclass=krdc
+wmclassmatch=1
+
+[73cbf34a-c4d6-4f21-b6e1-4a5ac0e40d3b]
+Description=Application settings for jetbrains-idea-ce
+clientmachine=localhost
+decocolor=Dsfs
+decocolorrule=2
+wmclass=jetbrains-idea-ce
+wmclassmatch=1
+
+[8]
+Description=vbox 白色
+clientmachine=localhost
+decocolor=FffVbox
+decocolorrule=1
+disableglobalshortcuts=true
+title=(Oracle VM VirtualBox 管理器|VirtualBox - 关于)
+titlematch=3
+types=65825
+windowrole=mainwindow#1
+wmclass=virtualbox( manager)?
+wmclassmatch=3
+
+[818e83f4-e030-439b-bca3-de55cb410138]
+Description=Settings for wps wps
+noborderrule=2
+types=1
+wmclass=wps wps
+wmclasscomplete=true
+wmclassmatch=1
+
+[8e6f30be-dec2-4144-9d3a-0af4ab77a2d5]
+Description=Window settings for db2setup
+acceptfocus=true
+acceptfocusrule=2
+clientmachine=frame58
+fpplevel=3
+fpplevelrule=2
+title=DB2 Setup - DB2 Express-C
+types=1
+wmclass=sun-awt-x11-xframepeer db2setup
+wmclasscomplete=true
+wmclassmatch=1
+
+[9]
+Description=Application settings for konsole
+clientmachine=localhost
+decocolor=FffKonsole
+decocolorrule=2
+disableglobalshortcuts=true
+title=w10 [正在运行] - Oracle VM VirtualBox
+windowrole=mainwindow#1
+wmclass=konsole
+wmclassmatch=1
+
+[9ff4ddc7-712c-4f0a-8f66-be89f1507d36]
+Description=Window settings for
+clientmachine=localhost
+title=Oracle SQL Developer
+titlematch=1
+types=1
+wmclassmatch=1
+
+[General]
+count=16
+rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+
+[a202d30a-8536-4c49-ba48-9c167e75a837]
+Description=WPS Excel
+noborderrule=2
+types=33
+wmclass=et
+wmclassmatch=1
+
+[b8c3f076-1675-47da-bfa0-bc791d9f563b]
+Description=Application settings for gvim
+clientmachine=localhost
+decocolor=FffKonsole
+decocolorrule=2
+wmclass=gvim
+wmclassmatch=1
+
+[c285ee3a-4873-48b2-ab1b-45343c00984f]
+Description=pdf
+noborderrule=2
+types=1
+wmclass=wpspdf pdf
+wmclasscomplete=true
+wmclassmatch=1
+
+[d0380613-8e6a-43f9-abc4-6e205dda9a68]
+Description=Window settings for virtualbox machine
+clientmachine=localhost
+disableglobalshortcuts=true
+disableglobalshortcutsrule=2
+title=w10 [正在运行] - Oracle VM VirtualBox
+titlematch=1
+types=1
+wmclass=virtualbox machine
+wmclassmatch=1
+
+[d2e0982e-3c64-4455-b656-d522b6f6f5ce]
+Description=Application settings for firefox
+clientmachine=localhost
+decocolor=Fff
+decocolorrule=2
+wmclass=firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[dd6d42bc-d55e-481a-ae0f-4bed166b4855]
+Description=Window settings for jetbrains-idea-ce
+clientmachine=localhost
+decocolor=BreezeDark
+decocolorrule=2
+title=efficient – MyBatisCompareController.java
+titlematch=1
+types=1
+wmclass=jetbrains-idea-ce
+wmclassmatch=1
+
+[de877008-832c-461f-890d-55bd442e1117]
+Description=Window settings for
+clientmachine=localhost
+decocolor=Fff
+decocolorrule=2
+title=Oracle SQL Developer
+titlematch=1
+types=1
+wmclassmatch=1
+
+[f328c548-a908-4fb2-bba1-fa55371bae15]
+Description=Application settings for gimp-2.10
+clientmachine=localhost
+decocolor=FffGimp
+decocolorrule=2
+wmclass=gimp-2.10
+wmclassmatch=1
+
+[f3cef806-2f45-4dce-93d5-334c55cdbf89]
+Description=Settings for wpsoffice
+noborderrule=2
+types=33
+wmclass=wpsoffice
+wmclassmatch=1

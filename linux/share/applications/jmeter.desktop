@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=jmeter
+GenericName=jmeter
+Comment=jmeter
+Path=/home/x4x/.local/software/apache-jmeter-5.5/
+Exec=/home/x4x/.local/software/apache-jmeter-5.5/bin/jmeter
+Icon=/home/x4x/.local/software/apache-jmeter-5.5/docs/images/mstile-144x144.png
+Categories=IDE;Development
+StartupWMClass=jmetere
+StartupNotify=true
+Keywords=IDE;Java

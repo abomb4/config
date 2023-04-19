@@ -1,0 +1,39 @@
+[Windeco Exception 0]
+BorderSize=0
+Enabled=true
+ExceptionPattern=Chromium
+ExceptionType=0
+HideTitleBar=false
+Mask=0
+
+[Windeco Exception 1]
+BorderSize=0
+Enabled=true
+ExceptionPattern=^(.* - WPS |wps|WPS|et|wpp)(文字|演示|表格)?$
+ExceptionType=1
+HideTitleBar=true
+Mask=16
+
+[Windeco Exception 2]
+BorderSize=0
+Enabled=false
+ExceptionPattern=draw.io
+ExceptionType=0
+HideTitleBar=true
+Mask=0
+
+[Windeco Exception 3]
+BorderSize=0
+Enabled=true
+ExceptionPattern=netease-cloud-music
+ExceptionType=0
+HideTitleBar=true
+Mask=16
+
+[Windeco Exception 4]
+BorderSize=0
+Enabled=true
+ExceptionPattern=com.alibabainc.dingtalk
+ExceptionType=0
+HideTitleBar=true
+Mask=16

@@ -1,0 +1,54 @@
+# zsh
+export HISTFILE=~/.zsh/zsh_history
+
+if [ -f "$HOME/.profile" ]; then
+    source $HOME/.profile
+fi
+
+# aliases
+alias l="ls -lFh"
+
+# Try load nvm
+if [ -d "$HOME/.nvm" ]; then
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fi
+
+# Change jdk version in current window
+setjdk() {
+  local new_jdk_version="$1"
+  local new_java_home_varname="JAVA${new_jdk_version}_HOME"
+  local new_java_home="${(P)new_java_home_varname}"
+
+  # 判断输入的 JDK 版本号是否在允许的版本数组中
+  local jdk_versions=("8" "11" "17" "19")
+  if [[ ! "${jdk_versions[@]}" =~ "${new_jdk_version}" ]]; then
+    echo "无效的 JDK 版本：$new_jdk_version，请输入以下版本号之一：${jdk_versions[@]}"
+    return 1
+  fi
+
+  if [[ -n "$new_java_home" ]]; then
+    export PATH="${PATH//$JAVA_HOME/$new_java_home}"
+    export JAVA_HOME="$new_java_home"
+    if [[ -n "$1" ]]; then
+      echo "已设置 JDK 版本为 JDK $new_jdk_version"
+    fi
+  else
+    echo "无效的 JDK 版本：$new_jdk_version"
+    return 1
+  fi
+
+  # 判断是否输出 JDK 列表
+  if [[ -z "$1" ]] || [[ ! "${jdk_versions[@]}" =~ "${new_jdk_version}" ]]; then
+    echo "可用的 JDK 列表："
+    for version in "${jdk_versions[@]}"; do
+      local java_home_varname="JAVA${version}_HOME"
+      local java_home="${(P)java_home_varname}"
+      if [[ -n "$java_home" ]]; then
+        echo "JDK $version: $java_home"
+      fi
+    done
+  fi
+}
+

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Development;
+Comment[en_US]=Eclipse Memory Analyzer Tool (MAT), a toolkit for analyzing Java heap dumps.
+Comment=Eclipse Memory Analyzer Tool (MAT), a toolkit for analyzing Java heap dumps.
+Encoding=UTF-8
+Exec=~/.local/software/mat/MemoryAnalyzer
+Icon=/home/x4x/.local/software/mat/memory_analyzer_64.png
+Name[en_US]=Eclipse MAT
+Name=Eclipse MAT
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.12.0
