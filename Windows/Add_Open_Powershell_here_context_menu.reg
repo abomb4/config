@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellDirectly]
+@="Open &Powershell window here"
+"Icon"="%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellDirectly\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowershellDirectly]
+@="Open &Powershell window here"
+"Icon"="%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowershellDirectly\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowershellDirectly]
+@="Open &Powershell window here"
+"Icon"="%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowershellDirectly\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\PowershellDirectly]
+@="Open &Powershell window here"
+"Icon"="%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\PowershellDirectly\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
